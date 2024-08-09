@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Manugas Personal Portfolio">
+    <meta name="keywords" content="Personal Portfolio, HTML, CSS">
+    <meta name="author" content="John Lloyd Manugas">
+    <title>JLM | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="/html/index.html">JLM</a>
+            </div>
+
+            <!-- <label for="check" class="checkbox"><i class="bi bi-list"></i></label>
+            <input type="checkbox" name="check" id="check">  -->
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main class="main-section" id="home">
+        <div class="hero-section">
+            <div class="main-content">
+                <p class="greet">HELLO!</p>
+                <h1 class="title">I am <span>John Lloyd<br></span><span>Manugas</span></h1>
+                <h2 id="subtitle">Frontend focused developer</h2>
+                <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim distinctio maxime facere harum rerum? Ab est quaerat autem? Dolor, perspiciatis.</p>
+                <div class="action_btns">
+                    <!-- <button class="hire-me">Hire Me</button> -->
+                    <label for="modal-toggle" class="open-modal">Hire Me</label>
+                    <input type="checkbox" id="modal-toggle" class="modal-toggle">
+                    <div class="modal">
+                        <div class="modal-content">
+                        <label for="modal-toggle" class="close-modal">&times; </label>
+                        <img src="/img/4.png" alt="Manugas-Resume" class="resume-image">
+                        <button class="contact-button">Contact Me</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <section id="about">
+        <div class="about-box img-1">
+            <img src="/img/6.jpg" alt="Manugas-Pictures">
+        </div>
+
+        <div class="about-box description-1">
+            <h1>Introduction</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem tempora laboriosam odio cupiditate autem ratione, quas eum perferendis laudantium aliquid repellat temporibus excepturi corporis animi accusamus accusantium? Soluta, expedita sapiente?
+            Quia ut velit fuga reprehenderit nulla vel amet maxime officiis repellendus rerum, minima necessitatibus asperiores molestias quaerat minus totam hic cumque alias nemo laborum possimus? Quisquam quod sunt provident corrupti.
+            Nihil, aliquid! Doloribus ducimus fugit corrupti, quasi obcaecati unde ab, eum placeat molestias sed illum ratione iusto, deleniti molestiae. Temporibus dolor nemo atque repudiandae, unde et explicabo impedit libero! Quod!</p>
+            <button class="learn-more-1">Learn More</button>
+        </div>
+        <div class="about-box img-2">
+            <img src="/img/3.jpg" alt="Manugas-Pictures">
+        </div>
+        <div class="about-box description-2">
+            <h1>Introduction</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quo voluptatum aliquid molestiae quia sequi cumque totam dolore ipsam rem minus, doloremque, deserunt, laborum reiciendis sint accusantium aliquam repellendus placeat?
+            Architecto a nisi maxime? Ex impedit natus repellat, architecto enim aspernatur veniam nesciunt! Incidunt, perferendis dolor asperiores voluptatem culpa accusantium praesentium labore odio cum! Est rem impedit natus eum aliquid.
+            Quisquam molestiae voluptas, nisi eum corrupti consequuntur repellendus ut eligendi, possimus, labore rem impedit? Error autem doloribus voluptas sequi sint dignissimos, voluptates aliquam consequuntur, ullam debitis et, quas iste maiores.</p>
+            <button class="learn-more-1">Learn More</button>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="card-container">
+            <div class="card" style="width: 18rem;">
+                <img src="/img/7.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/img/7.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/img/7.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <!-- <div class="about-container">
+                <img src="your-photo.jpg" alt="Your Name" class="about-photo">
+                <div class="about-text">
+                    <h1>About Me</h1>
+                    <p>Hi, I'm [Your Name], a [Your Profession] with over [X] years of experience in [Your Industry/Field]. I specialize in [Your Specializations], and I'm passionate about [What Drives You].</p>
+                    <p>My journey began with [Brief Career History], and I've had the pleasure of working on [Notable Projects or Roles]. I believe in [Your Professional Philosophy or Values].</p>
+                    <p>When I'm not [Working/Designing/Coding], you'll find me [Hobbies or Interests]. I'm always looking to [Goals or Aspirations], and I'm excited to connect with like-minded individuals.</p>
+                    <p>Feel free to reach out for collaboration or just to say hi!</p>
+                    <a href="contact.html" class="contact-button">Contact Me</a>   -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+    </section>
+
+    <section>
+    </section>
+
+    <footer id="contacts">
+            <div class="contact-intro">
+                <h2>Looking Forward to Hearing from You!</h2>
+                <p>If you have a project in mind, I'm currently unemployed and available for hire! I’m passionate about [field or specialty] and always excited to take on new challenges. Whether you’re looking for Web designed or would like to discuss a project, feel free to reach out.</p>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Me</h4>
+                <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+                <a href="https://github.com/yourprofile">GitHub</a>
+            </div>
+            </div>
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="footer-bottom">
+              <p>&copy; 2024 Manugas. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
