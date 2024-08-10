@@ -89,7 +89,7 @@ nav ul li a:hover{
 
 .main-section{
     /* background: linear-gradient(360deg, #2e3642, #526077); */
-    background-image: url("/img/2.webp");
+    background-image: url("2.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
